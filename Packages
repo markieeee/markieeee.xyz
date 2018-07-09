@@ -1,3 +1,199 @@
+Package: com.markieeee.AEVUS
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: markieeee <marcus.d.ellison@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.markieeee.aevus_1.0_iphoneos-arm.deb
+Size: 55972
+MD5sum: b7181bed7c392d53dc7687210ca53c22
+SHA1: bfbfd5adbf2fe3825c679d11791d4778647a3c38
+SHA256: 5733425604dbe2f4c88427a40c2f9debd5da405308f86d9407a96e6ef4923ff8
+Section: Tweaks
+Description: Add Date and seconds in Status Bar
+Author: CryptedBytes <https://twitter.com/cryptedbytes>
+Name: AEVUS
+
+Package: com.markieeee.BioProtect
+Version: 2.3-3
+Architecture: iphoneos-arm
+Maintainer: markieeee <marcus.d.ellison@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.markieeee.bioprotect_2.3-3_iphoneos-arm.deb
+Size: 748254
+MD5sum: 86cc62a758dc3ec0946c1a70e6e69316
+SHA1: e491ccdff7b9256a4e92b49019780b43d8070ca1
+SHA256: 58aea27b573f6823d3f68b08d87319e223afae3d0b14d97fa6672122b8c8b5b6
+Section: Tweaks
+Description: Protect your apps with you fingerprint!
+Author: Elias Limneos <twitter.com/limneos>
+Name: BioProtect
+
+Package: com.markieeee.CCMusicArtwork
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: markieeee <marcus.d.ellison@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.markieeee.ccmusicartwork_1.0.2_iphoneos-arm.deb
+Size: 11786
+MD5sum: c2810fb868b3ba2f025d03e579e8976e
+SHA1: 110f76156002a11848b626a7f611da5b8d63b1ca
+SHA256: d5330595494acee39e7f5494962583e9552e03bc1c4dd2d9b2da2723e246b7a0
+Section: Tweaks
+Description: add music to the CC!
+Author: SparkDev_ <twitter.com/SparkDev_>
+Name: CCMusicArtwork
+
+Package: com.markieeee.CarBridge
+Version: 0.0.1-4625+debug
+Architecture: iphoneos-arm
+Maintainer: markieeee <marcus.d.ellison@gmail.com>
+Depends: com.leftyfl1p.carplaydependencies, mobilesubstrate
+Filename: ./debs/com.markieeee.carbridge_0.0.1-4625+debug_iphoneos-arm.deb
+Size: 3313338
+MD5sum: ce7fbb30fcd6642fcf8cc460e1956402
+SHA1: 99683478f5c5aca1376dd07836b7d777cc884805
+SHA256: 91fd5073ee9f4d75cc0c7c1b62d4d68ec11f0c87a41e2f4f91275e05c81a897d
+Section: Tweaks
+Description: Mirror Apps on CarPlay!
+Author: leftyfl1p <https://www.twitter.com/leftyfl1p>
+Name: CarBridge
+
+Package: com.markieeee.Clotus
+Version: 5.0
+Architecture: iphoneos-arm
+Maintainer: markieeee <marcus.d.ellison@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.markieeee.clotus_5.0_iphoneos-arm.deb
+Size: 2748256
+MD5sum: 0ad9ac76594682e3c61eb1e441bea59d
+SHA1: 4fd16f83addfc14573aff22a140fef6db3bb6e68
+SHA256: 1d768fee75dc5573cabe691ab76259951e9a7276669d62bf0c2d012bc6463e07
+Section: Themes
+Description: add nice icons to your stock apps
+Author: ChloeisOaky <twitter.com/Chloeeisoaky>
+Name: Clotus
+
+Package: com.markieeee.CocoaTop
+Version: 2.0.2-1+debug
+Architecture: iphoneos-arm
+Maintainer: markieeee <marcus.d.ellison@gmail.com>
+Conflicts: ru.domo.cocoatop
+Filename: ./debs/com.markieeee.cocoatop_2.0.2-1+debug_iphoneos-arm.deb
+Size: 210462
+MD5sum: e35e58e582001764a1ea381aecf66f87
+SHA1: 8fe9147cb32436583903072a88ec829b3dde3c16
+SHA256: 604ecfd082944b207dab7e5cb574e8dfe8d9a98afc541ddb400b19ba0552b2e5
+Section: Utilities
+Description: Process Viewer for iOS GUI (64-bit)
+Author: Domo
+Name: CocoaTop
+
+Package: com.markieeee.Cylinder
+Version: 1.0.6
+Architecture: iphoneos-arm
+Maintainer: markieeee <marcus.d.ellison@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.markieeee.cylinder_1.0.6_iphoneos-arm.deb
+Size: 332170
+MD5sum: 9b9b76270f6c50b7da1ab00012b91917
+SHA1: 1a83125669ac49f467dd7720f56a9c50fd2aa140
+SHA256: 8dd988e148483f62b571649e44a17fa26640996f16d4c89e1cd5a9870f5f4fd5
+Section: Tweaks
+Description: add animations to SpringBoard!!
+Author: Reed Weichler <twitter.com/rweichler>
+Name: Cylinder
+
+Package: com.markieeee.Mage
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: markieeee <marcus.d.ellison@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.markieeee.mage_1.0_iphoneos-arm.deb
+Size: 5706
+MD5sum: 2fdcd991743aa76701ddd47dc68fc8c2
+SHA1: b48857a5bc2cfa719e93ca1318564f0fbc2b43e7
+SHA256: 8668ab6308c3d26ea319aa5b10deded8c39f85c48f2919f81609179af0a377c3
+Section: Utilites
+Description: add custom options to SpringBoard!
+Author: marcusde23 <marcus.d.ellison@gmail.com>
+Name: Mage
+
+Package: com.markieeee.MageFix
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: markieeee <marcus.d.ellison@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.markieeee.magefix_1.0_iphoneos-arm.deb
+Size: 11754
+MD5sum: 5c3e3ac61d6c0d9ccba3df7a44e90a14
+SHA1: 27e889a985adbfd0b20071387d82722d8264670c
+SHA256: db1915ed6099ad4457accf698a5e95adcc49a04166d0d53bdbff112c37659136
+Section: Utilites
+Description: fix your springBoard messed up by Mage!
+Author: markieeee <marcus.d.ellison@gmail.com>
+Name: MageFix
+
+Package: com.markieeee.NoTrackpadDelay
+Version: 1.0-2
+Architecture: iphoneos-arm
+Maintainer: markieeee <marcus.d.ellison@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.markieeee.notrackpaddelay_1.0-2_iphoneos-arm.deb
+Size: 3536
+MD5sum: f4670fae6d8733033882a4212545ca95
+SHA1: eabda0472670214f4b2a3a75ab0bb2befa2a39ce
+SHA256: a22ec8e9ae78c30785d22159e05df5a85ce2e5a8ef9152376b181fca4adf55b0
+Section: Tweaks
+Description: no more trackpad delay on 3dtouch!!
+Author: Frozen Penguin <roberthoffman1993@gmail.com>
+Name: NoTrackpadDelay
+
+Package: com.markieeee.TapTapFlip
+Version: 1.3.3
+Architecture: iphoneos-arm
+Maintainer: markieeee <marcus.d.ellison@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.markieeee.taptapflip_1.3.3_iphoneos-arm.deb
+Size: 9840
+MD5sum: 20142fd7bc00c7b974be101bcd34a0cf
+SHA1: 273a191e9b51de8691ce09d2969e0654c5ae5855
+SHA256: 790764dd3b9c413e2626b43785fc67eab1e6649a5ada808aef2ba8088e7570db
+Section: Tweaks
+Description: add snapchat gestures to native camera app!!
+Author: CP Digital Darkroom <https://twitter.com/cpdigdarkroom>
+Name: TapTapFlip
+
+Package: com.markieeee.animate
+Version: 1.3
+Architecture: iphoneos-arm
+Maintainer: markieeee <marcus.d.ellison@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.markieeee.animate_1.3_iphoneos-arm.deb
+Size: 11494
+MD5sum: ea368f9aff07f496885f2a1babfeaf08
+SHA1: ec4fa531f070dd8a610639f3e0920f4d9d41e92c
+SHA256: 752dfc4d026acb798d3e905eb6b21a2480a540036b34b0a2c8793861b27d2060
+Section: Tweaks
+Description: animate bootlogo
+Author: chronic <twitter.com/limneos>
+Name: animate
+
+Package: com.markieeee.betterpowerdown
+Version: 1.4.0
+Architecture: iphoneos-arm
+Maintainer: markieeee <marcus.d.ellison@gmail.com>
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), firmware (<< 8.0) | org.coolstar.libclassictelephonyui
+Filename: ./debs/com.markieeee.betterpowerdown_1.4.0_iphoneos-arm.deb
+Size: 82902
+MD5sum: 7bb6ee12881b0d6328e12c2f3e847863
+SHA1: f0313b38450998f8790d02fb71080bbc1f7bafc5
+SHA256: 68a8ebb11a89e0ad74902b9eb23947d9ceec5587539099189dc32dc4e27f3ef4
+Section: Tweaks
+Description: classic iOS 6 style power sliders
+Author: CoolStar
+Icon: file:///Library/PreferenceBundles/BetterPowerDownSettings.bundle/BetterPowerDownSettings@2x.png
+Name: BetterPowerDown
+
 Package: com.markieeee.inApp
 Version: 0.0.1-2+debug
 Architecture: iphoneos-arm
@@ -5,9 +201,9 @@ Maintainer: markieeee <marcus.d.ellison@gmail.com>
 Depends: mobilesubstrate
 Filename: ./debs/com.markieeee.inapp_0.0.1-2+debug_iphoneos-arm.deb
 Size: 3980
-MD5sum: fc880a113dfa5dbcd3fd0ec9a35f2ac2
-SHA1: 9f44801b2bbbb72308bf87d8f03b0cc80f3d19f6
-SHA256: 22c239563aaf7fd586dbfad4c7b4aea54962d2db484f24ec266651561fd1b3db
+MD5sum: c32b1f0037a5640594e05200cd308779
+SHA1: 8a27e1384ee0f1940f1c7861fdf630c02d915d2a
+SHA256: 3bbca4e45ff29ee9aebf1dd3b532c8017f2b15506dd31ccaf893034119b4507e
 Section: Tweaks
 Description: An awesome MobileSubstrate tweak!
 Author: System Administrator

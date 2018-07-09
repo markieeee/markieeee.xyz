@@ -1,9 +1,9 @@
-Package: com.marcusde23.animate
+Package: com.markieeee.animate
 Name: animate
 Depends: mobilesubstrate
 Version: 1.3
 Architecture: iphoneos-arm
 Description: animate bootlogo
-Maintainer: marcusde23 <marcus.d.ellison@gmail.com>
+Maintainer: markieeee <marcus.d.ellison@gmail.com>
 Author: chronic <twitter.com/limneos>
 Section: Tweaks

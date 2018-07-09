@@ -1,9 +1,9 @@
-Package: com.marcusde23.CarBridge
+Package: com.markieeee.CarBridge
 Name: CarBridge
 Depends: com.leftyfl1p.carplaydependencies, mobilesubstrate
 Version: 0.0.1-4625+debug
 Architecture: iphoneos-arm
 Description: Mirror Apps on CarPlay!
-Maintainer: marcusde23 <marcus.d.ellison@gmail.com>
+Maintainer: markieeee <marcus.d.ellison@gmail.com>
 Author: leftyfl1p <https://www.twitter.com/leftyfl1p>
 Section: Tweaks

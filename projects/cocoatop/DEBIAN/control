@@ -1,11 +1,10 @@
-Package: ru.domo.cocoatop64.markie
+Package: com.markieeee.CocoaTop
 Name: CocoaTop
 Depends:
 Conflicts: ru.domo.cocoatop
 Architecture: iphoneos-arm
 Description: Process Viewer for iOS GUI (64-bit)
-Maintainer: Domo
+Maintainer: markieeee <marcus.d.ellison@gmail.com>
 Author: Domo
 Section: Utilities
 Version: 2.0.2-1+debug
-Installed-Size: 742
