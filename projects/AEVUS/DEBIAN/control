@@ -1,0 +1,9 @@
+Package: com.marcusde23.AEVUS
+Name: AEVUS
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Add Date and seconds in Status Bar
+Maintainer: marcusde23 <marcus.d.ellison@gmail.com>
+Author: CryptedBytes <https://twitter.com/cryptedbytes>
+Section: Tweaks

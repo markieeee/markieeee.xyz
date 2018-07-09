@@ -1,0 +1,9 @@
+Package: com.marcusde23.MageFix
+Name: MageFix
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: fix your springBoard messed up by Mage!
+Maintainer: marcusde23 <marcus.d.ellison@gmail.com>
+Author: marcusde23 <marcus.d.ellison@gmail.com>
+Section: Utilites

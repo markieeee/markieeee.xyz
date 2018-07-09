@@ -1,0 +1,9 @@
+Package: com.marcusde23.NoTrackpadDelay
+Name: NoTrackpadDelay
+Depends: mobilesubstrate
+Version: 1.0-2
+Architecture: iphoneos-arm
+Description: no more trackpad delay on 3dtouch!!
+Maintainer: marcusde23 <marcus.d.ellison@gmail.com>
+Author: Frozen Penguin <roberthoffman1993@gmail.com>
+Section: Tweaks

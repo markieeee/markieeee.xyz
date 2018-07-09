@@ -1,0 +1,10 @@
+Package: com.markieeee.betterpowerdown
+Section: Tweaks
+Maintainer: markie <contact@xarold.com>
+Architecture: iphoneos-arm
+Version: 1.4.0
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), firmware (<< 8.0) | org.coolstar.libclassictelephonyui
+Description: classic iOS 6 style power sliders
+Name: BetterPowerDown
+Author: CoolStar
+Icon: file:///Library/PreferenceBundles/BetterPowerDownSettings.bundle/BetterPowerDownSettings@2x.png

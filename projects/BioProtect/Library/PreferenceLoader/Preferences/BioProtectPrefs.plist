@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = BioProtectPrefs;
+	cell = PSLinkCell;
+	detail = BioProtectPrefsListController;
+	icon = BioProtect.png;
+	isController = 1;
+	label = BioProtect;
+    };
+}

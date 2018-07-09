@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSStaticTextCell</string>
+			<key>cellClass</key>
+			<string>PFHeaderCell</string>
+			<key>image</key>
+			<string>/bootstrap/Library/PreferenceBundles/aevuspreferences.bundle/header.png</string>
+			<key>height</key>
+			<integer>100</integer>
+			<key>background</key>
+			<string>#EFEFF4</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Enable / Disable Aevus Experience</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.cryptedbytes.aevuspreferences</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enable</string>
+			<key>PostNotification</key>
+			<string>com.cryptedbytes.aevuspreferences/preferences.changed</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Choose a style for status bar time display:</string>
+			<key>footerText</key>
+			<string>12 / 24 hour modes will be respected</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>defaults</key>
+			<string>com.cryptedbytes.aevuspreferences</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>key</key>
+			<string>preferredFormatInt</string>
+			<key>label</key>
+			<string>Select time format</string>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+				<integer>5</integer>
+				<integer>6</integer>
+				<integer>7</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>13:21:36</string>
+				<string>Tue - 13:21:36</string>
+				<string>Oct 21, 13:21:36</string>
+				<string>21/10/2018 - 13:21:36</string>
+				<string>21.10.2018 - 13:21:36</string>
+				<string>10/21/2018 - 13:21:36</string>
+				<string>10.21.2018 - 13:21:36</string>
+				<string>Oct 21 2018 - 13:21:36</string>
+			</array>
+			<key>PostNotification</key>
+			<string>com.cryptedbytes.aevuspreferences/preferences.changed</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Contact Developer</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>followAction</string>
+			<key>label</key>
+			<string>Follow developer on Twitter</string>
+			<key>icon</key>
+			<string>Twitter.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>contactAction</string>
+			<key>label</key>
+			<string>Report a bug / feature request / other</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Make developer smile</string>
+			<key>footerText</key>
+			<string>Thanks for installing my tweak. This tweak is built for the community. Built without keeping any income in mind. But I have spent many hours making this project run smooth across all devices. And, since I'm just a high school student, having free time for coding is hard. So please, encourage me to develop better tweaks and help me turn my ideas into tweaks by donating. It would be a great help to me, I'll be very thankful if you do so and most of your donation will be spent for buying books. However, you can use all features without donating. Enjoy Aevus!</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>donateAction</string>
+			<key>label</key>
+			<string>Donate me a book via PayPal</string>
+			<key>icon</key>
+			<string>Paypal.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+			<key>footerText</key>
+			<string>Aevus by Bugra Guray @ CryptedBytes Mobile Development</string>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Aevus</string>
+</dict>
+</plist>

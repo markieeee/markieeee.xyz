@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>items</key>
+    <array>
+
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Contributions</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSTitleValueCell</string>
+            <key>label</key>
+            <string>Bounty Creator</string>
+            <key>get</key>
+            <string>valueForSpecifier:</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSTitleValueCell</string>
+            <key>label</key>
+            <string>Logo Animation</string>
+            <key>get</key>
+            <string>valueForSpecifier:</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSTitleValueCell</string>
+            <key>label</key>
+            <string>Header Animation</string>
+            <key>get</key>
+            <string>valueForSpecifier:</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Translation Credits</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSTitleValueCell</string>
+            <key>label</key>
+            <string>norsk</string>
+            <key>get</key>
+            <string>valueForSpecifier:</string>
+        </dict>
+
+
+        <dict>
+            <key>cell</key>
+            <string>PSTitleValueCell</string>
+            <key>label</key>
+            <string>한국어</string>
+            <key>get</key>
+            <string>valueForSpecifier:</string>
+        </dict>
+
+
+        <dict>
+            <key>cell</key>
+            <string>PSTitleValueCell</string>
+            <key>label</key>
+            <string>Magyar</string>
+            <key>get</key>
+            <string>valueForSpecifier:</string>
+        </dict>
+
+
+        <dict>
+            <key>cell</key>
+            <string>PSTitleValueCell</string>
+            <key>label</key>
+            <string>繁體中文(香港)</string>
+            <key>get</key>
+            <string>valueForSpecifier:</string>
+        </dict>
+
+
+        <dict>
+            <key>cell</key>
+            <string>PSTitleValueCell</string>
+            <key>label</key>
+            <string>Türkçe</string>
+            <key>get</key>
+            <string>valueForSpecifier:</string>
+        </dict>
+
+
+        <dict>
+            <key>cell</key>
+            <string>PSTitleValueCell</string>
+            <key>label</key>
+            <string>Français</string>
+            <key>get</key>
+            <string>valueForSpecifier:</string>
+        </dict>
+
+
+        <dict>
+            <key>cell</key>
+            <string>PSTitleValueCell</string>
+            <key>label</key>
+            <string>繁體中文</string>
+            <key>get</key>
+            <string>valueForSpecifier:</string>
+        </dict>
+
+
+        <dict>
+            <key>cell</key>
+            <string>PSTitleValueCell</string>
+            <key>label</key>
+            <string>Deutsch</string>
+            <key>get</key>
+            <string>valueForSpecifier:</string>
+        </dict>
+
+
+        <dict>
+            <key>cell</key>
+            <string>PSTitleValueCell</string>
+            <key>label</key>
+            <string>简体中文</string>
+            <key>get</key>
+            <string>valueForSpecifier:</string>
+        </dict>
+
+
+        <dict>
+            <key>cell</key>
+            <string>PSTitleValueCell</string>
+            <key>label</key>
+            <string>Español</string>
+            <key>get</key>
+            <string>valueForSpecifier:</string>
+        </dict>
+
+
+        <dict>
+            <key>cell</key>
+            <string>PSTitleValueCell</string>
+            <key>label</key>
+            <string>Italiano</string>
+            <key>get</key>
+            <string>valueForSpecifier:</string>
+        </dict>
+
+
+        <dict>
+            <key>cell</key>
+            <string>PSTitleValueCell</string>
+            <key>label</key>
+            <string>Nederlands</string>
+            <key>get</key>
+            <string>valueForSpecifier:</string>
+        </dict>
+
+
+        <dict>
+            <key>cell</key>
+            <string>PSTitleValueCell</string>
+            <key>label</key>
+            <string>Русский</string>
+            <key>get</key>
+            <string>valueForSpecifier:</string>
+        </dict>
+
+
+        <dict>
+            <key>cell</key>
+            <string>PSTitleValueCell</string>
+            <key>label</key>
+            <string>Português Brasileiro</string>
+            <key>get</key>
+            <string>valueForSpecifier:</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSTitleValueCell</string>
+            <key>label</key>
+            <string>Romana</string>
+            <key>get</key>
+            <string>valueForSpecifier:</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSTitleValueCell</string>
+            <key>label</key>
+            <string>Română</string>
+            <key>get</key>
+            <string>valueForSpecifier:</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>
+            <string>PSTitleValueCell</string>
+            <key>label</key>
+            <string>Moldovenească</string>
+            <key>get</key>
+            <string>valueForSpecifier:</string>
+        </dict>
+        
+        <dict>
+            <key>cell</key>
+            <string>PSTitleValueCell</string>
+            <key>label</key>
+            <string>العربية</string>
+            <key>get</key>
+            <string>valueForSpecifier:</string>
+        </dict>
+
+    </array>
+    <key>title</key>
+    <string>Other Credits</string>
+</dict>
+</plist>

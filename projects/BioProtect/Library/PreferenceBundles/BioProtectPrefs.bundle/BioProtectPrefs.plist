@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Global Settings</string>
+			<key>id</key>
+			<string>GLOBAL_SETTINGS</string>
+		</dict>
+		
+		<dict>
+			<key>PostNotification</key>
+			<string>net.limneos.bioprotect.prefsChanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>net.limneos.bioprotect</string>
+			<key>key</key>
+			<string>Enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+			<key>id</key>
+			<string>ENABLED</string>
+		</dict>
+		
+		
+		<dict>
+			<key>PostNotification</key>
+			<string>net.limneos.bioprotect.vibrationChanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>net.limneos.bioprotect</string>
+			<key>key</key>
+			<string>VibrateOnError</string>
+			<key>label</key>
+			<string>Vibrate on Error</string>
+			<key>id</key>
+			<string>VIBRATE_ON_ERROR</string>
+			
+		</dict>
+		
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>BioProtectHapticController</string>
+			<key>label</key>
+			<string>Vibrate on Success</string>
+			<key>key</key>
+			<string>hapticSetting</string>
+			<key>id</key>
+			<string>HAPTIC_CONTROLLER</string>
+		</dict>
+		
+		
+		
+		<dict>
+			<key>PostNotification</key>
+			<string>net.limneos.bioprotect.prefsChanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>
+			<string>PSSubtitleSwitchTableCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>net.limneos.bioprotect</string>
+			<key>key</key>
+			<string>keepSession</string>
+			<key>label</key>
+			<string>Remember Unlock Session</string>
+			<key>id</key>
+			<string>KEEP_SESSION</string>
+			<key>cellSubtitleText</key>
+			<string>Offers a grace period after unlock</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>BioProtectWiFiController</string>
+			<key>label</key>
+			<string>Trusted WiFi Networks</string>
+			<key>id</key>
+			<string>TRUSTED_WIFI_NETWORKS</string>
+
+		</dict>
+		
+		
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>BioProtectPasscodeSettingsController</string>
+			<key>label</key>
+			<string>Passcode options</string>
+			<key>id</key>
+			<string>PASSCODE_OPTIONS</string>
+			
+		</dict>
+		
+		<dict>
+			<key>PostNotification</key>
+			<string>net.limneos.bioprotect.prefsChanged</string>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>BioProtectButtonController</string>
+			<key>key</key>
+			<string>ButtonColor</string>
+			<key>label</key>
+			<string>Circle Color</string>
+			<key>id</key>
+			<string>CIRCLE_COLOR</string>
+			
+		</dict>
+		
+	
+		
+		
+		
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Protected Items</string>
+			<key>id</key>
+			<string>PROTECTED_ITEMS</string>
+		</dict>
+		
+		
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>BioProtectApplicationsController</string>
+			<key>label</key>
+			<string>Applications</string>
+			<key>id</key>
+			<string>APPLICATIONS_KEY</string>
+		</dict>
+		
+			
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>BioProtectAppNotificationsController</string>
+			<key>label</key>
+			<string>Lockscreen Notifications</string>
+			<key>id</key>
+			<string>APPLICATIONS_NOTIFICATIONS_KEY</string>
+		</dict>
+		
+		
+		<dict>
+		 	<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>BioProtectFoldersController</string>
+			<key>label</key>
+			<string>Folders</string>
+			<key>id</key>
+			<string>FOLDERS_KEY</string>
+
+		</dict>
+		
+		
+	
+				
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>BioProtectProtectedSpecsController</string>
+			<key>label</key>
+			<string>Settings Panes</string>
+			<key>id</key>
+			<string>SETTING_PANES_KEY</string>
+
+		</dict>
+		
+				
+		<dict>
+		 	<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>BioProtectFlipswitchController</string>
+			<key>label</key>
+			<string>FlipSwitches</string>
+			<key>id</key>
+			<string>FLIPSWITCHES</string>
+		</dict>
+	
+		
+		
+		<dict>
+		 	<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>BioProtectCCItemsController</string>
+			<key>label</key>
+			<string>ControlCenter Items</string>
+			<key>id</key>
+			<string>CONTROLCENTER</string>
+		</dict>
+
+		<dict>
+		 	<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>BioProtectCCSettingsItemsController</string>
+			<key>label</key>
+			<string>CCSettings Items</string>
+			<key>id</key>
+			<string>CCSETTINGS_KEY</string>
+		</dict>		
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>BioProtectInCallProtectionListController</string>
+			<key>label</key>
+			<string>Caller ID Protection</string>
+			<key>id</key>
+			<string>CALLER_ID_PROTECTION_KEY</string>
+		</dict>
+		
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>BioProtectPowerDownListController</string>
+			<key>label</key>
+			<string>Power-Off Protection</string>
+			<key>id</key>
+			<string>POWER_OFF_PROTECTION</string>
+		</dict>
+		
+	
+		
+	
+		<dict>
+			<key>PostNotification</key>
+			<string>net.limneos.bioprotect.prefsChanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>net.limneos.bioprotect</string>
+			<key>key</key>
+			<string>protectSIMUnlock</string>
+			<key>label</key>
+			<string>SIM unlock Protection</string>
+			<key>id</key>
+			<string>SIM_UNLOCK_PROTECTION</string>
+			
+		</dict>
+		
+		<dict>
+			<key>PostNotification</key>
+			<string>net.limneos.bioprotect.prefsChanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>net.limneos.bioprotect</string>
+			<key>key</key>
+			<string>protectSwitcher</string>
+			<key>label</key>
+			<string>AppSwitcher Protection</string>
+			<key>id</key>
+			<string>SWITCHER_PROTECTION</string>
+		</dict>
+		
+		
+		<dict>
+			<key>PostNotification</key>
+			<string>net.limneos.bioprotect.prefsChanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>net.limneos.bioprotect</string>
+			<key>key</key>
+			<string>protectSiri</string>
+			<key>label</key>
+			<string>Siri Access Protection</string>
+			<key>id</key>
+			<string>SIRI_ACCESS_PROTECTION</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>net.limneos.bioprotect.prefsChanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>net.limneos.bioprotect</string>
+			<key>key</key>
+			<string>protectMovingApps</string>
+			<key>label</key>
+			<string>Icon Arrangement Protection</string>
+			<key>id</key>
+			<string>ICONS_ARRANGEMENT</string>
+			
+		</dict>
+		
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Experimental</string>
+			<key>footerText</key>
+			<string>If protection for Photos.app is enabled, this feature attempts to block access to photos from any NON-PROTECTED application until you authenticate. (If the application is BioProtected, there is no need to protect Photos access inside it). This is an experimental feature, feel free to test it. If you experience multiple authentication requests inside applications that use PhotoLibrary, disable this feature and protect the application instead.</string>
+			<key>id</key>
+			<string>EXPERIMENTAL</string>
+
+		</dict>
+		
+		
+		<dict>
+			<key>PostNotification</key>
+			<string>net.limneos.bioprotect.prefsChanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>net.limneos.bioprotect</string>
+			<key>key</key>
+			<string>photoLibraryProtection</string>
+			<key>label</key>
+			<string>PhotoLibrary Forced Protection</string>
+			<key>id</key>
+			<string>ENFORCE_PHOTO_LIBRARY</string>
+			
+		</dict>
+		
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Extras</string>
+			<key>footerText</key>
+			<string>This feature allows you to unlock the device using the TouchID sensor even if you don't have a passcode set. (It does not require a valid fingerprint)</string>
+			<key>id</key>
+			<string>EXTRAS</string>
+
+		</dict>
+	
+	
+		<dict>
+			<key>PostNotification</key>
+			<string>net.limneos.bioprotect.prefsChanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>net.limneos.bioprotect</string>
+			<key>key</key>
+			<string>QuitProtectedAppsOnDeviceLock</string>
+			<key>label</key>
+			<string>Quit Protected App on Lock</string>
+			<key>id</key>
+			<string>QUIT_PROTECTED_APPS</string>
+			
+		</dict>	
+		<dict>
+			<key>PostNotification</key>
+			<string>net.limneos.bioprotect.prefsChanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>net.limneos.bioprotect</string>
+			<key>key</key>
+			<string>unlockUsingTouchID</string>
+			<key>label</key>
+			<string>Unlock Using Touch ID</string>
+			<key>id</key>
+			<string>UNLOCK_WITH_TOUCHID</string>
+			
+		</dict>
+		
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Show a brief description or name of the protected item on the fingerprint alert</string>
+			<key>id</key>
+			<string>Protected Item Info</string>
+			
+		</dict>
+		
+	 
+		
+		<dict>
+			<key>PostNotification</key>
+			<string>net.limneos.bioprotect.prefsChanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>net.limneos.bioprotect</string>
+			<key>key</key>
+			<string>showProtectedItemName</string>
+			<key>label</key>
+			<string>Show Protected Item Name</string>
+			<key>id</key>
+			<string>SHOW_PROTECTED_ITEM_NAME</string>
+			
+		</dict>
+		
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>AppSwitcher Protection Settings</string>
+			<key>id</key>
+			<string>APP_SWITCHER_SETTINGS</string>
+		</dict>
+		
+		<dict>
+			<key>PostNotification</key>
+			<string>net.limneos.bioprotect.prefsChanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>net.limneos.bioprotect</string>
+			<key>key</key>
+			<string>blurAppSwitcher</string>
+			<key>label</key>
+			<string>Blur AppSwitcher Items</string>
+			<key>id</key>
+			<string>BLUR_APP_SWITCHER_ITEMS</string>	
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>net.limneos.bioprotect.prefsChanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>net.limneos.bioprotect</string>
+			<key>key</key>
+			<string>showBioProtectedText</string>
+			<key>label</key>
+			<string>Show "BioProtected" Text</string>
+			<key>id</key>
+			<string>SHOW_BIOPROTECTED_TEXT</string>	
+		</dict>
+		
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Folder Extras</string>
+			<key>footerText</key>
+			<string>This options defines if protected applications that are inside protected folders should still be protected after opening the folder</string>
+			<key>id</key>
+			<string>FOLDER_EXTRAS</string>
+
+		</dict>
+		
+		<dict>
+			<key>PostNotification</key>
+			<string>net.limneos.bioprotect.prefsChanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>net.limneos.bioprotect</string>
+			<key>key</key>
+			<string>CloseProtectedFoldersAfterLaunchingApp</string>
+			<key>label</key>
+			<string>Exit Protected Folder on App Launch</string>
+			<key>id</key>
+			<string>CLOSE_PROTECTED_FOLDERS</string>
+			
+		</dict>
+		
+		<dict>
+			<key>PostNotification</key>
+			<string>net.limneos.bioprotect.prefsChanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>net.limneos.bioprotect</string>
+			<key>key</key>
+			<string>appsInFoldersAreStillProtected</string>
+			<key>label</key>
+			<string>Protect Apps In Folders</string>
+			<key>id</key>
+			<string>PROTECT_APPS_IN_FOLDERS</string>
+			
+		</dict>
+		
+	
+		
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Debugging</string>
+			<key>footerText</key>
+			<string>Here you can find generated crash logs that are caught by BioProtect. It does not mean that BioProtect caused the crash, but they can still help the developer debug any issues.</string>
+			<key>id</key>
+			<string>DEBUG</string>
+
+		</dict>
+		
+		<dict>
+		 	<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>BioProtectDebugLogsController</string>
+			<key>label</key>
+			<string>Crash Logs</string>
+			<key>id</key>
+			<string>CRASH_LOGS</string>
+		</dict>
+		
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Revert to default settings.</string>
+		
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Reset All Settings</string>
+			<key>action</key>
+			<string>resetAllBioProtectSettings:</string>
+			<key>isDestructive</key>
+			<true/>
+			<key>id</key>
+			<string>RESET_ALL</string>
+		</dict>		
+	</array>
+	<key>title</key>
+	<string>BioProtect</string>
+</dict>
+</plist>

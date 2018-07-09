@@ -1,0 +1,9 @@
+Package: com.marcusde23.CCMusicArtwork
+Name: CCMusicArtwork
+Depends: mobilesubstrate
+Version: 1.0.2
+Architecture: iphoneos-arm
+Description: add music to the CC!
+Maintainer: marcusde23 <marcus.d.ellison@gmail.com>
+Author: SparkDev_ <twitter.com/SparkDev_>
+Section: Tweaks

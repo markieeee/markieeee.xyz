@@ -1,0 +1,9 @@
+Package: com.marcusde23.Clotus
+Name: Clotus
+Depends: mobilesubstrate
+Version: 5.0
+Architecture: iphoneos-arm
+Description: add nice icons to your stock apps
+Maintainer: marcusde23 <marcus.d.ellison@gmail.com>
+Author: ChloeisOaky <twitter.com/Chloeeisoaky>
+Section: Themes

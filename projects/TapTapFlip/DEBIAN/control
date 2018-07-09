@@ -1,0 +1,9 @@
+Package: com.marcusde23.TapTapFlip
+Name: TapTapFlip
+Depends: mobilesubstrate
+Version: 1.3.3
+Architecture: iphoneos-arm
+Description: add snapchat gestures to native camera app!!
+Maintainer: marcusde23 <marcus.d.ellison@gmail.com>
+Author: CP Digital Darkroom <https://twitter.com/cpdigdarkroom>
+Section: Tweaks

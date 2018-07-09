@@ -1,0 +1,9 @@
+Package: com.marcusde23.BioProtect
+Name: BioProtect
+Depends: mobilesubstrate
+Version: 2.3-3
+Architecture: iphoneos-arm
+Description: Protect your apps with you fingerprint!
+Maintainer: marcusde23 <marcus.d.ellison@gmail.com>
+Author: Elias Limneos <twitter.com/limneos>
+Section: Tweaks

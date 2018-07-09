@@ -1,0 +1,9 @@
+Package: com.marcusde23.Cylinder
+Name: Cylinder
+Depends: mobilesubstrate
+Version: 1.0.6
+Architecture: iphoneos-arm
+Description: add animations to SpringBoard!!
+Maintainer: marcusde23 <marcus.d.ellison@gmail.com>
+Author: Reed Weichler <twitter.com/rweichler>
+Section: Tweaks

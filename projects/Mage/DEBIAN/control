@@ -1,0 +1,9 @@
+Package: com.marcusde23.Mage
+Name: Mage
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: add custom options to SpringBoard!
+Maintainer: marcusde23 <marcus.d.ellison@gmail.com>
+Author: marcusde23 <marcus.d.ellison@gmail.com>
+Section: Utilites

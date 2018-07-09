@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+		<dict>
+		    <key>cell</key>
+		    <string>PSGroupCell</string>
+		    <key>label</key>
+		    <string>FAQ</string>
+		</dict>
+
+		<dict>
+		    <key>cellClass</key>
+		    <string>HBLinkTableCell</string>
+		    <key>label</key>
+		    <string>View the FAQ</string>
+		    <key>url</key>
+		    <string>https://FAQsiteheresoontm.com</string>
+		</dict>
+
+		<dict>
+		    <key>cellClass</key>
+		    <string>HBLinkTableCell</string>
+		    <key>label</key>
+		    <string>App Compatibility Sheet</string>
+		    <key>subtitle</key>
+		    <string>Find which apps work well with CarBridge</string>
+		    <key>url</key>
+		    <string>http://bit.ly/2HhA7WW</string>
+		</dict>
+
+
+
+		<dict>
+		    <key>cell</key>
+		    <string>PSGroupCell</string>
+		    <key>label</key>
+		    <string>email</string>
+		</dict>
+
+		<dict>
+			<key>action</key>
+			<string>hb_sendSupportEmail</string>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>cellClass</key>
+			<string>HBTintedTableCell</string>
+			<key>label</key>
+			<string>Email Support</string>
+		</dict>
+
+
+		<dict>
+		    <key>cell</key>
+		    <string>PSGroupCell</string>
+		    <key>label</key>
+		    <string>debug</string>
+		</dict>
+
+		<dict>
+			<key>action</key>
+			<string>sendDebugPing</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Send Debug Ping</string>
+		</dict>
+
+
+	</array>
+	<key>title</key>
+	<string>Support</string>
+</dict>
+</plist>

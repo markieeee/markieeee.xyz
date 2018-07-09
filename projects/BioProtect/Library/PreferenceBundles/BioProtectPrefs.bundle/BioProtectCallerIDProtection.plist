@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Caller ID Protection hides the name of the caller when an incoming call comes in until you authenticate using Touch ID to reveal it, so that people around you cannot see who is calling you. It works for both native UI and CallBar.</string>
+			<key>id</key>
+			<string>CALLERID_TOP</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+				
+		<dict>
+			<key>PostNotification</key>
+			<string>net.limneos.bioprotect.prefsChanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>net.limneos.bioprotect</string>
+			<key>key</key>
+			<string>callerNameProtected</string>
+			<key>label</key>
+			<string>Enabled</string>
+			 
+		</dict>
+		
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>After you authenticate, by lifting your finger BioProtect will hide the caller name again. Disable this to have the device remember that you authenticated for the current call.</string>
+			<key>id</key>
+			<string>CALLERID_FINGER_UP</string>
+		</dict>
+		
+		<dict>
+			<key>PostNotification</key>
+			<string>net.limneos.bioprotect.prefsChanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>net.limneos.bioprotect</string>
+			<key>key</key>
+			<string>HideCallerAfterLifting</string>
+			<key>label</key>
+			<string>Hide Caller on Finger Up</string>
+			<key>id</key>
+			<string>CALLERID_HIDE_CALLER</string>
+		</dict>
+		
+		
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Current Lockscreen Notification Setting</string>
+			<key>footerText</key>
+			<string>It is highly recommended that you disable showing phone call notifications at lock screen if you enable Caller ID Protection. There is no point in protecting the Caller ID if a missed call notification appears and shows who called. BioProtect will not alter notifications, use the system's settings.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>label</key>
+			<string>Call Notifications At Lock Screen</string>
+			<key>id</key>
+			<string>SHOW_CALLS_AT_LOCKSCREEN_SYSTEM_SETTING</string>
+			<key>get</key>
+			<string>getShowsInLockScreen:</string>
+			<key>set</key>
+			<string>setShowsInLockScreen:specifier:</string>
+			
+		</dict>
+		
+		
+	</array>
+	<key>title</key>
+	<string>Caller ID Protection</string>
+</dict>
+</plist>

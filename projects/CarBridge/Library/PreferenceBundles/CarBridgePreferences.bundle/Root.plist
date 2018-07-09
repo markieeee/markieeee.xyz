@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>general</string>
+		</dict>
+
+	<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>isController</key>
+		<string>1</string>
+		<key>id</key>
+		<string>bridgedApps</string>
+		<key>label</key>
+		<string>Bridged Applications</string>
+		<key>icon</key>
+		<string>CarBridge.png</string>
+		<key>action</key>
+		<string>showAppListPage</string>
+		<key>enabled</key>
+		<false/>
+	</dict>
+
+	<dict>
+		<key>cell</key>
+		<string>PSSwitchCell</string>
+		<key>defaults</key>
+		<string>com.leftyfl1p.carplay</string>
+		<key>id</key>
+		<string>portalApp</string>
+		<key>key</key>
+		<string>portalAppEnabled</string>
+		<key>label</key>
+		<string>Show Portal App</string>
+		<key>icon</key>
+		<string>PortalAppIcon.png</string>
+		<key>default</key>
+		<false/>
+		<key>enabled</key>
+		<false/>
+		<key>PostNotification</key>
+		<string>com.leftyfl1p.carplay.settingschanged</string>
+	</dict>
+
+	<dict>
+	    <key>cellClass</key>
+	    <string>HBStepperTableCell</string>
+	    <key>default</key>
+	    <real>4</real>
+		<key>defaults</key>
+		<string>com.leftyfl1p.carplay</string>
+		<key>PostNotification</key>
+		<string>com.leftyfl1p.carplay.settingschanged</string>
+	    <key>key</key>
+	    <string>customColumns</string>
+		<key>icon</key>
+		<string>Column.png</string>
+	    <key>label</key>
+	    <string>Icon Columns: %i</string>
+	    <key>max</key>
+	    <real>10</real>
+	    <key>min</key>
+	    <real>4</real>
+	</dict>
+
+	<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>isController</key>
+		<string>1</string>
+		<key>label</key>
+		<string>CarPlay Settings</string>
+		<key>icon</key>
+		<string>CarPlay.png</string>
+		<key>action</key>
+		<string>showCarPlaySettings</string>
+	</dict>
+
+	<dict>
+		<key>cell</key>
+		<string>PSGroupCell</string>
+		<key>label</key>
+		<string>help</string>
+	</dict>
+
+	<dict>
+        <key>cell</key>
+        <string>PSLinkCell</string>
+        <key>isController</key>
+        <string>1</string>
+        <key>label</key>
+        <string>Support</string>
+		<key>icon</key>
+		<string>Support.png</string>
+        <key>detail</key>
+        <string>CBSupportListController</string>
+    </dict>
+
+	<dict>
+		<key>cellClass</key>
+		<string>HBLinkTableCell</string>
+		<key>label</key>
+		<string>Discord (English only)</string>
+		<key>icon</key>
+		<string>Discord.png</string>
+		<key>subtitle</key>
+		<string>Join for CarBridge/jailbreak discussion.</string>
+		<key>url</key>
+		<string>https://paypal.me/leftyfl1p</string>
+	</dict>
+
+	<dict>
+		<key>cell</key>
+		<string>PSGroupCell</string>
+		<key>label</key>
+		<string>credits</string>
+		<key>footerText</key>
+		<string>I have put countless hours into creating CarBridge. If you like what I do, showing your support in the form of a donation is always welcome, but never required. Anything and everything is appreciated. Thank you.</string>
+	</dict>
+
+	<dict>
+	    <key>cellClass</key>
+	    <string>HBTwitterCell</string>
+	    <key>label</key>
+	    <string>leftyfl1p</string>
+	    <key>user</key>
+	    <string>leftyfl1p</string>
+	</dict>
+
+	<dict>
+        <key>cell</key>
+        <string>PSLinkCell</string>
+        <key>isController</key>
+        <string>1</string>
+        <key>label</key>
+        <string>Other Credits</string>
+		<key>icon</key>
+		<string>OtherCredits.png</string>
+        <key>detail</key>
+        <string>CBOtherCreditsListController</string>
+    </dict>
+
+	<dict>
+	    <key>cellClass</key>
+	    <string>HBLinkTableCell</string>
+	    <key>icon</key>
+	    <string>PayPal.png</string>
+	    <key>label</key>
+	    <string>Contribute via PayPal</string>
+	    <key>url</key>
+	    <string>https://paypal.me/leftyfl1p</string>
+	</dict>
+
+	</array>
+	<key>title</key>
+	<string>CarBridge</string>
+</dict>
+</plist>

@@ -1,0 +1,10 @@
+{
+	entry = {
+		bundle = "BetterPowerDownSettings";
+		cell = PSLinkCell;
+		detail = "BetterPowerDownSettingsListController";
+		icon = "BetterPowerDownSettings.png";
+		isController = 1;
+		label = BetterPowerDown;
+	};
+}

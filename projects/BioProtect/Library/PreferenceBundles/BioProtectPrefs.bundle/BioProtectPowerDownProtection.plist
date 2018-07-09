@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			</dict>
+
+	 
+			<dict>
+			<key>PostNotification</key>
+			<string>net.limneos.bioprotect.prefsChanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>net.limneos.bioprotect</string>
+			<key>key</key>
+			<string>protectPowerDown</string>
+			<key>label</key>
+			<string>Power-Off Protection</string>
+			<key>id</key>
+			<string>POWER_OFF_PROTECTION</string>
+			
+		</dict>
+		
+		
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		
+		<dict>
+			<key>PostNotification</key>
+			<string>net.limneos.bioprotect.prefsChanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>net.limneos.bioprotect</string>
+			<key>key</key>
+			<string>protectPowerDownOnCriticalBattery</string>
+			<key>label</key>
+			<string>Critical Battery Off Protection</string>
+			<key>id</key>
+			<string>POWER_OFF_CRITICAL_PROTECTION</string>
+			
+		</dict>
+		
+		
+		
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>net.limneos.bioprotect.prefsChanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>net.limneos.bioprotect</string>
+			<key>key</key>
+			<string>protectRespring</string>
+			<key>label</key>
+			<string>Respring Protection (most cases)</string>
+			<key>id</key>
+			<string>RESPRING_PROTECTION</string>
+			
+		</dict>
+				
+		
+	</array>
+	<key>title</key>
+	<string>Power-Off Protection</string>
+</dict>
+</plist>
