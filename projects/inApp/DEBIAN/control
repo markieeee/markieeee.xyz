@@ -1,0 +1,9 @@
+Package: com.markieeee.inApp
+Name: InApp
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: markieeee <marcus.d.ellison@gmail.com>
+Author: System Administrator
+Section: Tweaks
+Version: 0.0.1-2+debug

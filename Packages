@@ -1,0 +1,15 @@
+Package: com.markieeee.inApp
+Version: 0.0.1-2+debug
+Architecture: iphoneos-arm
+Maintainer: markieeee <marcus.d.ellison@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.markieeee.inapp_0.0.1-2+debug_iphoneos-arm.deb
+Size: 3980
+MD5sum: fc880a113dfa5dbcd3fd0ec9a35f2ac2
+SHA1: 9f44801b2bbbb72308bf87d8f03b0cc80f3d19f6
+SHA256: 22c239563aaf7fd586dbfad4c7b4aea54962d2db484f24ec266651561fd1b3db
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: System Administrator
+Name: InApp
+
