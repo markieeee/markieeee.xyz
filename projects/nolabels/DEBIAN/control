@@ -1,0 +1,10 @@
+Package: com.markieeee.noiconlabels
+Version: 2.1
+Section: Tweaks
+Maintainer: D4ni <mail@d4ni.nl>
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Installed-Size: 340
+Description: Disable all icon/folder labels.
+Name: NoIconLabels (iOS 11)
+Author: D4ni <mail@d4ni.nl>

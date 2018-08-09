@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Main Switch</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>nl.d4ni.noiconlabelsprefs</string>
+			<key>key</key>
+			<string>kEnabled</string>
+			<key>label</key>
+			<string>Enable</string>
+			<key>PostNotification</key>
+			<string>nl.d4ni.noiconlabelsprefs/settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>nl.d4ni.noiconlabelsprefs</string>
+			<key>key</key>
+			<string>kApplabels</string>
+			<key>label</key>
+			<string>Hide Labels</string>
+			<key>PostNotification</key>
+			<string>nl.d4ni.noiconlabelsprefs/settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>nl.d4ni.noiconlabelsprefs</string>
+			<key>key</key>
+			<string>kDots</string>
+			<key>label</key>
+			<string>Hide Updated Dots</string>
+			<key>PostNotification</key>
+			<string>nl.d4ni.noiconlabelsprefs/settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Custom label text</string>
+			<key>footerText</key>
+			<string>Tip: Only works if "Hide Labels" is disabled.</string>
+			<key>PostNotification</key>
+			<string>nl.d4ni.noiconlabelsprefs/settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>placeholder</key>
+			<string>Leave empty to hide labels</string>
+			<key>defaults</key>
+			<string>nl.d4ni.noiconlabelsprefs</string>
+			<key>key</key>
+			<string>kCustomText</string>
+			<key>PostNotification</key>
+			<string>nl.d4ni.noiconlabelsprefs/settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>nl.d4ni.noiconlabelsprefs/settingschanged</string>
+			<key>action</key>
+			<string>respring</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Contact</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>contact</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Bugs? Let me know!</string>
+			<key>icon</key>
+			<string>mail.png</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>follow</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Follow me on Twitter!</string>
+			<key>icon</key>
+			<string>twitter.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Please consider donating if you like my work!</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>donate</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>defaults</key>
+			<string>nl.d4ni.noiconlabelsprefs</string>
+			<key>label</key>
+			<string>Donate via PayPal!</string>
+			<key>icon</key>
+			<string>paypal.png</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>NoIconLabels</string>
+</dict>
+</plist>

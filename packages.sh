@@ -14,3 +14,4 @@ dpkg-deb -bZgzip projects/NoTrackpadDelay debs
 dpkg-deb -bZgzip projects/powerdown debs
 dpkg-deb -bZgzip projects/TapTapFlip debs
 dpkg-deb -bZgzip projects/makecydiabuyagain debs
+dpkg-deb -bZgzip projects/nolabels debs

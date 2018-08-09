@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = NoIconLabelsPrefs;
+	cell = PSLinkCell;
+	detail = NoIconLabelsPrefsListController;
+	icon = prefs.png;
+	isController = 1;
+	label = NoIconLabels;
+    };
+}
