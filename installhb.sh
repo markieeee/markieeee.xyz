@@ -1,3 +1,11 @@
+set -e
+
+INSTALL_DIR=$HOME/homebridge
+DOCKER_VERSION=18.06 # 18.09 has issues on raspberry pi zero
+
+LP="[oznu/homebridge installer]"
+
+
 echo "$LP Docker Compose Installed"
 
 # Step 3: Create Docker Compose Manifest
